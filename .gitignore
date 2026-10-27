@@ -1,0 +1,38 @@
+# ==========================================
+# Data Rules
+# ==========================================
+# Bỏ qua tất cả dữ liệu đã xử lý / file CSV trung gian
+data/processed/
+*.csv
+
+# BẮT BUỘC giữ lại toàn bộ thư mục dữ liệu thô (data/raw/)
+!data/raw/
+!data/raw/**
+
+# ==========================================
+# Generated Figures & Results (Bỏ qua toàn bộ kết quả)
+# ==========================================
+results/
+figures/
+*.png
+*.pdf
+
+# ==========================================
+# Python & Environment
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================================
+# System & Editor files
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
